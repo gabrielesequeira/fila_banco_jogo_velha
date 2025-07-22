@@ -3,6 +3,7 @@
 #include <string.h>
 #include "fila.h"
 
+
 // Insere cliente no final da fila
 void inserir_cliente(Cliente** inicio, Cliente** fim, char* nome, int senha) {
     Cliente* novo = (Cliente*) malloc(sizeof(Cliente));
@@ -52,18 +53,14 @@ void mostrar_fila(Cliente* inicio) {
     }
 }
 
-// Verifica se a fila está vazia
-int fila_vazia(Cliente* inicio) {
-    return (inicio == NULL);
-}
-
 // Libera toda a fila (memória)
-void liberar_fila(Cliente** inicio) {
+void liberar_fila(Cliente** inicio, Cliente ** fim) {
     Cliente* atual = *inicio;
     while (atual != NULL) {
-        Cliente* temp = atual;
+        Cliente* anterior = atual;
         atual = atual->proximo;
-        free(temp);
+        free(anterior);
     }
     *inicio = NULL;
+    *fim = NULL;
 }
