@@ -3,7 +3,6 @@
 Projeto para a disciplina **INF1037 - Programação em C**  
 Desenvolvido em linguagem C com foco em lógica de programação, estruturas de dados e interação via terminal.
 
-
 ## Objetivo
 
 Criar dois programas distintos em C com propósitos didáticos:
