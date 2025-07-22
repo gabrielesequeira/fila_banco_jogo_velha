@@ -1,50 +1,49 @@
-# Simulador de Fila de Banco + Jogo da Velha no Terminal
+# Bank Queue Simulator + Tic-Tac-Toe in Terminal
 
-Projeto para a disciplina **INF1037 - Programação em C**  
-Desenvolvido em linguagem C com foco em lógica de programação, estruturas de dados e interação via terminal.
+Project for the course **INF1037 - Programming in C**  
+Developed in the C language with a focus on programming logic, data structures, and terminal interaction.
 
-## Objetivo
+## Objective
 
-Criar dois programas distintos em C com propósitos didáticos:
+Create two distinct programs in C for didactic purposes:
 
-1. **Simulador de Fila de Banco**  
-   Simula o atendimento de clientes em um banco, utilizando a estrutura de fila (FIFO).
+1. **Bank Queue Simulator**  
+   Simulates customer service in a bank using the queue structure (FIFO).
 
-2. **Jogo da Velha (Tic-Tac-Toe)**  
-   Jogo para dois jogadores, executado no terminal, utilizando matriz e verificação de condições de vitória.
+2. **Tic-Tac-Toe Game**  
+   Two-player game executed in the terminal, using a matrix and victory condition checks.
 
-## Funcionalidades
+## Features
 
-### Simulador de Fila de Banco
-- Adicionar novo cliente à fila
-- Atender (remover) cliente da fila
-- Listar todos os clientes na fila
-- Exibir status da fila (vazia, cheia, etc.)
-- Encerrar o programa
+### Bank Queue Simulator
+- Add new customer to the queue
+- Serve (remove) customer from the queue
+- List all customers in the queue
+- Display queue status (empty, full, etc.)
+- Exit the program
 
-### Jogo da Velha
-- Tabuleiro exibido no terminal
-- Alternância entre jogador X e jogador O
-- Verificação de vitória e empate
-- Opção de reiniciar o jogo
+### Tic-Tac-Toe
+- Board displayed in the terminal
+- Alternation between player X and player O
+- Victory and draw detection
+- Option to restart the game
 
-### Lógica de Dados e Estrutura
+### Data Logic and Structure
 
-### Fila de Banco
-O programa utiliza uma `struct Cliente` contendo nome e senha.  
-Clientes são armazenados dinamicamente em uma fila, utilizando ponteiros.  
-Funções principais:
+### Bank Queue
+The program uses a `struct Cliente` containing name and password.  
+Customers are dynamically stored in a queue using pointers.  
+Main functions:
 - `inserir_cliente()`
 - `atender_cliente()`
 - `listar_fila()`
 - `fila_vazia()`
 
-## Jogo da Velha
-Tabuleiro implementado com uma matriz 3x3 de `char`.  
-A verificação de vitória é feita com comparações nas linhas, colunas e diagonais.  
-Funções principais:
+### Tic-Tac-Toe
+The board is implemented with a 3x3 `char` matrix.  
+Victory check is done by comparing rows, columns, and diagonals.  
+Main functions:
 - `inicializar_tabuleiro()`
 - `mostrar_tabuleiro()`
 - `verificar_vencedor()`
 - `jogar()`
-
