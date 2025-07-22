@@ -16,6 +16,6 @@ void inserir_cliente(Cliente** inicio, Cliente** fim, char* nome, int senha);
 void atender_cliente(Cliente** inicio, Cliente** fim);
 void mostrar_fila(Cliente* inicio);
 int fila_vazia(Cliente* inicio);
-void liberar_fila(Cliente** inicio);
+void liberar_fila(Cliente** inicio, Cliente** fim);
 
 #endif

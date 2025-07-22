@@ -53,8 +53,9 @@ void mostrar_fila(Cliente* inicio) {
     }
 }
 
+
 // Libera toda a fila (memória)
-void liberar_fila(Cliente** inicio, Cliente ** fim) {
+void liberar_fila(Cliente** inicio, Cliente** fim) {
     Cliente* atual = *inicio;
     while (atual != NULL) {
         Cliente* anterior = atual;
