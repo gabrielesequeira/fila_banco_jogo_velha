@@ -47,3 +47,32 @@ Main functions:
 - `mostrar_tabuleiro()`
 - `verificar_vencedor()`
 - `jogar()`
+
+## Topics Learned and Practiced
+
+During the development of this project for the course, several fundamental concepts were applied and reinforced, such as:
+
+- **Data Structures in C**
+  - Definition and manipulation of structs (`struct Cliente`)
+  - Use of pointers to manage dynamic lists and queues
+
+- **Queues**
+  - Implementation of the FIFO (First In, First Out) structure
+  - Insertion, removal, and status checking of the queue
+
+- **Matrices and Array Manipulation**
+  - Use of matrices to represent the Tic-Tac-Toe board
+  - Accessing and modifying matrix elements
+
+- **Game Programming Logic**
+  - Checking win and draw conditions in Tic-Tac-Toe
+  - Controlling the alternation of turns between players
+
+- **Terminal Input and Output**
+  - Formatted printing of the system state (queue and board)
+  - Reading user data and commands
+
+- **Code Modularization**
+  - Organizing functions by responsibility (queue and game)
+  - Clear separation between data logic and interface
+
