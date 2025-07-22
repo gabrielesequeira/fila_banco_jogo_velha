@@ -39,7 +39,7 @@ Funções principais:
 - `listar_fila()`
 - `fila_vazia()`
 
-### Jogo da Velha
+## Jogo da Velha
 Tabuleiro implementado com uma matriz 3x3 de `char`.  
 A verificação de vitória é feita com comparações nas linhas, colunas e diagonais.  
 Funções principais:
